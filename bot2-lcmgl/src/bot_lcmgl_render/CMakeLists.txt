@@ -1,7 +1,7 @@
 add_definitions(-std=gnu99)
 
 set(c_files lcmgl_decode.c)
-set(h_files lcmgl_decode.h)
+set(h_files lcmgl_decode.h lcmgl_bot_renderer.h)
 set(REQUIRED_LIBS lcmtypes_bot2-lcmgl)
 
 if (USE_BOT_VIS)
